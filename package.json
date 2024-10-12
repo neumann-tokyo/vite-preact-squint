@@ -1,18 +1,25 @@
 {
-  "name": "vite-preact-cljs",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "preact": "^10.23.1"
-  },
-  "devDependencies": {
-    "@preact/preset-vite": "^2.9.0",
-    "vite": "^5.4.1"
-  }
+	"name": "vite-preact-cljs",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"engines": {
+		"node": ">=20.0.0",
+		"pnpm": ">=9.0.0"
+	},
+	"scripts": {
+		"dev": "bash shoreman.sh",
+		"squint": "squint watch",
+		"server": "vite --config=vite.config.js public",
+		"build": "vite build --config=vite.config.js public",
+		"preview": "vite preview --config=vite.config.js public"
+	},
+	"dependencies": {
+		"preact": "^10.23.1",
+		"squint-cljs": "^0.8.113"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.9.0",
+		"vite": "^5.4.1"
+	}
 }
