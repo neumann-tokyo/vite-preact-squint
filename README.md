@@ -1,4 +1,4 @@
-# Vite Preact Cljs
+# Vite Preact Squint
 
 * [x] [Vite](https://vitejs.dev/)
 * [x] [Preact](https://preactjs.com/)
