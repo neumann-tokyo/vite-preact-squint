@@ -8,4 +8,4 @@
 * [ ] [Valibot](https://valibot.dev/) (as malli alternative)
 * [x] [Chakra UI](https://v2.chakra-ui.com/)
 * [ ] [ky](https://github.com/sindresorhus/ky)
-
+* [x] devcontainer
