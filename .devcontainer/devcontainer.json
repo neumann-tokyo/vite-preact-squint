@@ -17,7 +17,9 @@
 				"huizhou.githd",
 				"GitHub.github-vscode-theme",
 				"naumovs.color-highlight",
-				"betterthantomorrow.calva"
+				"betterthantomorrow.calva",
+				"hoovercj.vscode-power-mode",
+				"Mtuan.typing-sounds"
 			],
 			"settings": {
 				"editor.formatOnSave": true,
@@ -27,7 +29,13 @@
 				"terminal.integrated.profiles.linux": {
 					"bash": { "path": "/bin/bash" }
 				},
-				"workbench.colorTheme": "GitHub Dark Colorblind (Beta)"
+				"workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+				"powermode.presets": "fireworks",
+				"powermode.enabled": true,
+				"powermode.combo.counterEnabled": "show",
+				"powermode.combo.location": "editor",
+				"powermode.combo.timerEnabled": "show",
+				"powermode.shake.enabled": false
 			}
 		}
 	}

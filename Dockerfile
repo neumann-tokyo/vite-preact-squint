@@ -10,6 +10,7 @@ RUN apt-get update -qq && \
   mkdir -p /home/$USERNAME/web && \
   chown -R $USERNAME:$USERNAME /home/$USERNAME/web && \
   npm install -g pnpm
+RUN apt-get install -y pulseaudio mplayer
 
 USER $USERNAME
 WORKDIR /home/$USERNAME/web

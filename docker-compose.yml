@@ -1,10 +1,11 @@
-version: "3.7"
-
 services:
   web:
     build: .
     command: tail -f /dev/null
     volumes:
       - .:/home/alice/web
+      - /mnt/wslg/:/mnt/wslg/
+    environment:
+      - PULSE_SERVER=/mnt/wslg/PulseServer
     ports:
       - "5454:5454"
