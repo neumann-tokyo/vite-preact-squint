@@ -15,11 +15,14 @@
 				"usernamehw.errorlens",
 				"albymor.increment-selection",
 				"huizhou.githd",
-				"GitHub.github-vscode-theme",
+				"victoriadrake.kabukicho",
 				"naumovs.color-highlight",
 				"betterthantomorrow.calva",
 				"hoovercj.vscode-power-mode",
-				"Mtuan.typing-sounds"
+				"Mtuan.typing-sounds",
+				"tonybaloney.vscode-pets",
+				"klyap.vscode-celestial-magic-girl-icon-theme",
+				"le-nn.vscode-vector-aquarium"
 			],
 			"settings": {
 				"editor.formatOnSave": true,
@@ -29,13 +32,25 @@
 				"terminal.integrated.profiles.linux": {
 					"bash": { "path": "/bin/bash" }
 				},
-				"workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+				"workbench.colorTheme": "Kabukichō",
+				"workbench.iconTheme": "vscode-celestial-magic-girl-icon-theme",
 				"powermode.presets": "fireworks",
 				"powermode.enabled": true,
 				"powermode.combo.counterEnabled": "show",
 				"powermode.combo.location": "editor",
 				"powermode.combo.timerEnabled": "show",
-				"powermode.shake.enabled": false
+				"powermode.shake.enabled": false,
+				"vscode-pets.petColor": "yellow",
+				"vscode-pets.petSize": "large",
+				"vscode-pets.petType": "dog",
+				"vscode-pets.position": "explorer",
+				"vscode-pets.theme": "beach",
+				"vscode-pets.throwBallWithMouse": true,
+				"nyanMode.nyanDisable": false,
+				"nyanMode.nyanDisplayPercent": true,
+				"nyanMode.nyanAction": "moving",
+				"nyanMode.nyanAnimation":"active",
+				"nyanMode.nyanRainbowAnimation": true
 			}
 		}
 	}
